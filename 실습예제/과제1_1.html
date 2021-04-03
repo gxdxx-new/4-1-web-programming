@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           div { 
+             width: 250px; height: 150px;
+             background-color: gray;
+             }
+          .box {
+              border-style: hidden;
+              border-radius: 50px 50px 50px 50px;
+              }
+          .font_center { text-align: center; }
+          input { width: 167px; height: 18px; }
+        </style>
+    </head>
+    <body>
+      <div>
+        <h1><b>간단한 입력 양식</b></h1>
+        <form method="post">
+            <table>
+                <tr>
+                    <td class="font_center"><b><label for="id">아이디</label></b></td>
+                    <td><input class="box" type="text" id="box" name="id"></td>
+                </tr>
+                <tr>
+                    <td class="font_center"><b><label for="password">비밀번호</label></b></td>
+                    <td><input class="box" type="password" id="box" name="password"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input class="box" type="submit" id="submit"></td>
+                </tr>
+            </table>
+        </form>
+      </div>
+    </body>
+</html>
