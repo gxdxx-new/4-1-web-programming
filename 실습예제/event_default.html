@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traditional Event - Default Event</title>
+    <script>
+        // 이벤트를 연결
+        window.onload = function() {
+            // 문서 객체를 선택
+            const button = document.getElementById('button');
+
+            // 이벤트를 연결
+            button.onclick = function() {
+                // 기본 이벤트를 제거
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <a id="button" href="http://hanbit.co.kr">버튼</a>
+</body>
+</html>

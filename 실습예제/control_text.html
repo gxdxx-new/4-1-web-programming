@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <script>
+        // 이벤트를 연결
+        window.onload = function() {
+            // 변수를 선언
+            let output = '';
+            for (let i = 0; i < 10; i++) {
+                output += '<h1>Header - ' + i + '</h1>';
+            }
+    
+            // 문서 객체 내부의 글자를 변경
+            document.body.textContent = output;     // 문서 객체 내부 글자를 순수 텍스트 형식으로 가져오도록 변경
+            // document.body.innerHTML = output;    // 문서 객체 내부 글자의 HTML 태그를 반영해 가져오도록 변경
+        };
+    </script>
+</head>
+<body>
+    <h1>Header</h1>
+    <h1>Header</h1>
+    <h1>Header</h1>
+</body>
+</html>
