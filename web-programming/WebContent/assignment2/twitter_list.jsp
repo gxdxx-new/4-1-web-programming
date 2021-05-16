@@ -33,16 +33,16 @@
 			</tr>
 		</table>
 		<hr>
-		<%
-			ArrayList<String> msgs = (ArrayList<String>)application.getAttribute("msgs");
-			if(msgs != null) {
-				out.println("<ul>");
-				for(String msg : msgs) {
-					out.println("<li>"+msg+"</li>");
-				}
-				out.println("</ul>");
-			}
-		%>
 	</div>
+	<%
+		ArrayList<String> msgs = (ArrayList<String>)application.getAttribute("msgs");
+		if(msgs != null) {
+			out.println("<ul>");
+			for(String msg : msgs) {
+				out.println("<li>"+msg+"</li>");
+			}
+			out.println("</ul>");
+		}
+	%>
 </body>
 </html>
