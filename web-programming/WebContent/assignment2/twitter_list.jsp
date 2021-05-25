@@ -42,7 +42,7 @@
 				out.println("<li>"+msg+"</li>");
 			}
 			out.println("</ul>");
-		}
+		} 
 	%>
 </body>
 </html>
