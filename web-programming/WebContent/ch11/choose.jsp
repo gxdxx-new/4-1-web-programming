@@ -32,11 +32,8 @@
 		<c:when test="${param.sel == 'c'}">
 			c 를 선택
 		</c:when>
-		<c:when test="${param.sel == 'd'}">
-			d 를 선택
-		</c:when>
 		<c:otherwise>
-			a, b, c, d 이외의 것을 선택
+			a, b, c 이외의 것을 선택
 		</c:otherwise>
 		</c:choose>
 	</c:if>

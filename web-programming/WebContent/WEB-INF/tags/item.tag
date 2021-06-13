@@ -10,4 +10,4 @@
 		for(String item: product.getProductList())
 			out.println("<tr><td>"+item+"</td></tr>");
 	%>
-</table>
+</table> 

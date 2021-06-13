@@ -11,7 +11,7 @@
 <body>
 	<h3>&lt;c;for&gt;</h3>
 	<p>
-	<c:forEach vai="i" items="${members}" begin="0" varStatus="status" end="5">	<!-- index:0~5, count:1~6 -->
+	<c:forEach var="i" items="${members}" begin="0" varStatus="status" end="5">	<!-- index:0~5, count:1~6 -->
 		index : ${status.index} /
 		count : ${status.count} <br>
 		name : ${i.name} <br>
